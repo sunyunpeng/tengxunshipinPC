@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{ width:265px;
+    height:110px;
+    position:relative;
+    margin:10px auto;
+    overflow: hidden;
+}
+#inner{ width:1590px;
+    height:110px;
+    position:absolute;
+    left:-265px;
+    top:0;}
+#inner div{ width:265px;
+    height:110px;
+    float:left;
+    background: blue;
+
+    font-size:98px;
+    text-align:center;
+    line-height:110px;
+    color:white;}
+#tip{ margin:0;
+    padding:0;
+    list-style:none;
+    width:50px;
+    height:30px;
+    text-align:center;
+    line-height:30px;
+    position:absolute;
+    right: -10px;
+    top: 5px;   }
+#tip li{height:5px; width:5px;border: 1px solid orange;background: orange; margin:0 0px;; float:left; font-size:16px; font-weight:bold; -webkit-user-select:none; cursor:pointer; border-radius:50%;}
+.outer a{display: block; width: 30px; height: 45px; position: absolute; top: 50%; margin-top: -23px; background: url("pre.png") no-repeat ; opacity: .6; filter: alpha(opacity = 60); }
+.outer a:hover{ opacity: 1; filter: alpha(opacity = 100); }
+.outer a.bannerLeft{ left: 20px; }
+.outer a.bannerRight{ right: 20px; }
+.outer a.bannerRight{ background-position: -45px 0 ; }
+.bg{  background: red}
+.bg2{  background: green}

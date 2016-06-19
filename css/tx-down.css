@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background: #f4f4f4;
+}
+html {
+    color: #666;
+    background-color: #fff;
+    -ms-text-size-adjust: 100%;
+    _text-overflow: ellipsis
+}
+body {
+    display: block;
+    height: 1375px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 hiragino sans gb,microsoft yahei,simsun;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+
+}
+.down-head{
+
+    background: black;
+    position: relative;
+    z-index: 2;
+
+
+}
+.down-headA{
+    width: 1030px;
+    height: 45px;
+    line-height: 45px;
+    display: block;
+    background: black;
+    margin: 0 auto;
+
+}
+.down-headA h1{
+    float: left;
+    display: inline;
+}
+.down-headA h1 a{
+    display: block;
+    width: 118px;
+    height: 45px;
+    line-height: 120px;
+    overflow: hidden;
+    background: url("../tx-down/tx_downlogo.png") no-repeat;
+}
+.down-headB{
+
+    float: right;
+    display: inline;
+
+}
+
+
+.down-headB a{
+    float: left;
+    display: inline;
+    margin: 0 10px 0 50px;
+    color: #6f6f6f;
+    font-size: 14px;
+
+}
+.down-headB a.color{
+    color: orangered;
+}
+a {
+    text-decoration: none;
+}
+.down-headB a:hover {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+    color: orangered;
+}
+.down-bd{
+
+    width: 1349px;
+    height:593px;
+    background: url("../tx-down/txd-bg3.jpg")no-repeat;
+}
+.wrapper {
+    position: relative;
+    width: 1030px;
+    margin: 0px auto;
+    height: 455px;
+    border: 0px solid rebeccapurple;
+}
+.wrapper1 {
+    position: relative;
+    width: 1030px;
+    margin: 0px auto;
+
+    border: 0px solid rebeccapurple;
+}
+.wrapper3 {
+    position: relative;
+    width: 1030px;
+    margin: 0px auto;
+    height: 210px;
+    border: 1px solid rebeccapurple;
+}
+.txd-computer{
+
+    position: absolute;
+    width: 550px;
+    height: 460px;
+    background: url("../tx-down/ele_computer.png");
+    top: 95px;
+    left: 35px;
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.txd-computer img{
+
+    width: 495px;
+    height: 298px;
+    position: absolute;
+    left: 28px;
+    top: 27px;
+}
+.pc_title {
+    position: absolute;
+    width: 361px;
+    height: 45px;
+    background: url("../tx-down/pc_title.png");
+    top: 98px;
+    left: 623px;
+    line-height: 9999px;
+    overflow: hidden;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+ .intro_list {
+    position: absolute;
+    left: 623px;
+    top: 155px;
+    color: #ddd;
+    font-size: 14px;
+    line-height: 23px;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+ul, ol {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ .label {
+    color: #aaa;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 hiragino sans gb,microsoft yahei,simsun;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    display: block;
+    width: 161px;
+    height: 32px;
+    margin-left: -80px;
+    margin-top: -16px;
+    background: url("../tx-down/pc.png") no-repeat;
+    background-position: 0 0;
+}
+.btn_download {
+
+    display: block;
+    margin: 30px auto 0;
+    width: 245px;
+    height: 60px;
+    line-height: 100;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    background: #ff5f00;
+    background: -webkit-gradient(linear, 0 0, 0 50%, from(#f60), to(#ff5400));
+    background: gradient(linear, 0 0, 0 50%, from(#f60), to(#ff5400));
+    border-radius: 5px;
+    position: absolute;
+    left: 623px;
+    top: 400px;
+}
+
+.sample-wrap{
+    width: 110%;
+
+    overflow: hidden;
+    padding: 50px 0 70px 0;
+    border: 0px solid royalblue;
+}
+
+.sample_list {
+    width: 110%;
+    list-style: none;
+    border: 1px solid blue;
+}
+ .item1 {
+    width: 235px;
+    display: inline;
+    float: left;
+    margin-right: 30px;
+    border: 0px solid royalblue;
+}
+
+.nums_01, .nums_02, .nums_03, .nums_04 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../tx-down/sprite_pclient.png") no-repeat transparent;
+    background-position:-10px -10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+}
+.sample-list .intro {
+    height: 90px;
+    padding: 0 0 0 56px;
+    position: relative;
+}
+.sample_list .intro .title {
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.sample_list .item1 .img {
+    display: block;
+    width: 235px;
+    height: 245px;
+    vertical-align: bottom;
+}
+ .summary {
+    color: #999;
+    line-height: 18px;
+     width: 179px;
+}
+.recom_contain {
+    background: #e5e5e5;
+    margin-top: 0px;
+    display: block;
+}
+.recom_wrap {
+    width: 820px;
+    height: 160px;
+    overflow: hidden;
+    padding: 40px 0 10px 210px;
+    border: 0px solid gold;
+}
+.download_foot {
+    background: #2a2a2a;
+}
+.download_foot_inner {
+    height: 72px;
+    line-height: 72px;
+    overflow: hidden;
+    color: #ccc;
+    width: 1030px;
+    margin: 0 auto;
+}
+.download_weibo {
+    float: right;
+    display: inline;
+    color: #cccccc;
+}
+.strong{
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.download_copyright {
+    float: left;
+    display: inline;
+    font: normal 12px/72px Arial,Helvetica;
+}
+.download_weibo a {
+    width: 132px;
+    height: 34px;
+    vertical-align: middle;
+    margin: 20px 10px 0 0;
+    overflow: hidden;
+    line-height: 100px;
+    float: left;
+    display: inline;
+}
+.qqweibo {
+    background: url("../tx-down/download_icon.png") 0 -110px no-repeat;
+}
+.xlweibo {
+    background: url("../tx-down/download_icon.png") -140px -110px no-repeat;
+}
+.recom_wrap .recom_title {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 200px;
+    color: #666;
+    font-size: 18px;
+}
+.icon_recom {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url("../tx-down/sprite_pclient.png") -215px -10px;
+    margin: 1px 10px 0 0;
+    vertical-align: top;
+}
+.recom_wrap .recom_title:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    background: url("../tx-down/split.png") no-repeat;
+    top: -15px;
+    right: 36px;
+}
+.cf:before, .cf:after {
+    content: '';
+    display: table;
+}
+
+.recom_list .item3 .img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.recom_wrap .recom_list {
+    float: left;
+    width: 120%;
+}
+.recom_list .item3 {
+    display: inline;
+    float: left;
+    width: 160px;
+    height: 50px;
+    padding: 0 0 30px 65px;
+    position: relative;
+}
+.recom_list .item3 .title {
+    display: block;
+    color: #666;
+    font-size: 16px;
+}
+.recom_list .item3 .desc {
+    display: block;
+    font-size: 14px;
+    color: #999;
+}
+.chart_code {
+    background: rgba(255,255,255,.2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33FFFFFF',endColorstr='#33FFFFFF');
+    width: 102px;
+    position: absolute;
+    right: -130px;
+    top: 0;
+    padding: 20px 15px 15px;
+    text-align: center;
+}
+.chart_code {
+    background: rgba(255,255,255,.2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33FFFFFF',endColorstr='#33FFFFFF');
+    width: 102px;
+    position: absolute;
+    right: -130px;
+    top: 0;
+    padding: 20px 15px 15px;
+    text-align: center;
+}
+.chart_code .tx-inner {
+    display: block;
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+}

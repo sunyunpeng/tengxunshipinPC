@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.fixd{
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+
+}
+.LBT{ width: 100%;
+    height: 504px;
+    position:relative;
+   margin-top: 100px;
+    overflow: hidden;
+
+}
+.head{width: 100%;height: 77px;border: 0px solid gray; margin: auto ;background: white}
+.inner{ width: 1240px; height: 75px; border: 1px solid white;margin: 0px auto; list-style: none;position: relative;background: white}
+.lineT{width: 1347px; }
+.line{   width: 100%;  height: 3px;background: -webkit-linear-gradient(left,deepskyblue 0,rgba(89,204,24,1) 20%,rgba(89,204,24,1) 30%,deepskyblue 32%,deepskyblue 100%);
+
+}
+.head2{width: 100%;height: 44px;border: 0px solid gray; background-color:ghostwhite ;margin: auto;border-bottom: 2px solid #cecece;}
+.inner2{ width: 1240px; height: 40px; border: 0px solid red;margin: auto;  }
+#inner2 ul{
+    height: 44px;
+    border: 0px solid darkmagenta;
+    position: relative;
+}
+#inner2 i{
+    position: absolute;
+    overflow: hidden;
+
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+#inner2 a{
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    font-size: 15px;
+    margin-left: 8px;
+    color: black;
+    font-weight: inherit;
+    font-family: 微软雅黑;
+}
+#inner2 span{
+    height: 44px;
+}
+.h1{  width: 220px; height: 75px ;border: 0px solid blue;float: left;display: block;top: 0;left: 0;background-image: url("../img/logo.png");background-position: 0 -54px; position: absolute}
+.a{position: absolute;top: 0;left: 0; width: 158px; height: 54px ;margin-top: 10px ;border: 0px solid blue; display: block;background-image: url("../img/logo.png");background-position: 0 0; }
+.b{position: absolute;width: 120px; height: 50px ;float: left;margin-top: 14px ;border: 0px solid blue;}
+.inner .img1{ width:158px; height: 54px ;border: 0px solid yellow;margin-top: 11px ;float: left ;opacity: 0 }
+.inner .img2{ width: 120px ;height: 50px ;border: 0px solid darkgray;background:white;margin-left: 200px}
+#ssk{width: 550px ;
+    height: 46px;
+    border: 1px solid #cecece;
+    margin-left:350px;
+    margin-top: 15px;
+
+}
+.xt{
+    width: 20px;
+    height: 20px;
+    background: url("../img/sousuoptoto.png")no-repeat;
+}
+.ipt{ width: 433px;height: 44px;margin-top: 0px;margin-left: 32px;border:none;outline:medium; font-size: 15px;font-family: 黑体;font-weight:normal}
+.ipan{ width: 85px;height:48px;background: #ff5d00;border:1px solid #ff5d00;font-family: 宋体;font-weight: bold;color: aliceblue;font-size: 20px;margin-top: -1px;outline:medium;}
+#ycl {width: 175px ; height: 46px; border: 0px solid hotpink; float: left;margin-top: -48px;margin-left:980px ;list-style: none;position: relative}
+
+#ycl a{
+    display: block;
+    width: 56px;
+    height: 43px;
+    float: left;
+
+}
+#ycl span{
+    display: block;
+    text-align: center;
+    color: #b0b0b0;
+    width: 26px;
+    height: 16px;
+    line-height: 16px; border: 0px solid fuchsia;
+    font-size: 13px;
+    margin-top: -2px;
+    margin-left: 15px;
+}
+#ycl i{
+    margin:5px 15px 0px 15px ;
+}
+.G{height: 26px;line-height: 30px;float: left;color: #cecece;font-size: 26px;width: 3px}
+.LJ{ margin-right: 10px;float: right;width: 52px}
+.H{
+
+    height: 26px;
+
+    border: 0px solid salmon;
+    float: left;
+
+    margin: 0 10px 0 10px ;
+    text-align: center;
+    font-size: 8px;
+}
+.sousuo{
+    background: url("../img/sousuoptoto.png")no-repeat;
+    float: left;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    margin: 10px 5px 10px 5px;
+}
+.sprite_common{
+    background-position: 0 0;
+
+}
+.sprite_common2{ background-position: -30px 0}
+.sprite_common3{ background-position: -90px 0}
+
+.sprite_common,.sprite_common2,.sprite_common3{
+    width: 26px;
+    height: 26px;
+    background-image: url("../img/sprite_common.png");
+    display: inline-block;
+    zoom: 1;
+
+}
+.qe{
+    width: 46px;
+    height: 46px;
+    border: 1px solid blanchedalmond;
+    display: block;
+    margin-left: 1165px;
+    margin-top: -48px; border-radius: 50%;
+    background-image: url("../img/qie.png");
+}
+.xhx{
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    width: 1px;
+    height: 26px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+.xhx2{
+    position: absolute;
+    top: 6px;
+    right: 46px;
+    width: 1px;
+    height: 26px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+.xhx3{
+    position: absolute;
+    top: 6px;
+    right: 102px;
+    width: 1px;
+    height: 26px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+.hot{
+    display: inline-block;
+    background-position: 0 -166px;
+    background-image:url("../img/sprite_common.png");
+    width: 17px;
+    height: 7px;
+    overflow: hidden;
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -5px;
+}
+.xingxing{
+    display: inline-block;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-image:url("../img/sprite_common.png");
+    background-position: -190px -140px ;
+    top: 10px;
+    right: 122px;
+}
+.xiazai{
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    background:url("../img/sprite_common.png")no-repeat;
+    background-position: -100px -140px ;
+    top: 10px;
+    right: 50px;
+}
+.xgx{
+
+    top: 15px;
+    left: 137px;
+    width: 1px;
+    height: 16px;
+    background: #cccccc;
+}
+.xgx2{
+
+    top: 15px;
+    left: 350px;
+    width: 1px;
+    height: 16px;
+    background: #cccccc;
+}
+.xgx3{
+
+    top: 15px;
+    left: 497px;
+    width: 1px;
+    height: 16px;
+    background: #cccccc;
+}
+.xgx4{
+
+    top: 15px;
+    left: 700px;
+    width: 1px;
+    height: 16px;
+    background: #cccccc;
+}
+.xgx5{
+
+    top: 15px;
+    left: 875px;
+    width: 1px;
+    height: 16px;
+    background: #cccccc;
+}
+.zb{
+    width: 1240px;
+    height: 100%;
+    margin: 5px auto;
+    border: 1px solid  blueviolet;
+    position: relative;
+}
+.wb{
+    margin-top: 0px;
+
+}
+
+
+
