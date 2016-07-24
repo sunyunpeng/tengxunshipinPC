@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="css/lb-css.css">
     <link rel="stylesheet" href="css/tlm.css">
 </head>
+<style>
+    ul{padding: 0px;margin:0px;list-style: none;}
+    img{vertical-align: top;}
+    #wrap{width: 1240px;height: 105px;overflow: hidden;position: relative;margin:0px auto;}
+    #ul1{height: 105px;width: 9999px;position: absolute;}
+    #ul1 .item{width: 248px;height: 105px;overflow: hidden;float: left;}
+    #ul1 .wrap_link{width: 994px;height: 105px;}
+    #ul1 .wrap_link a{float: left;height: 105px;}
+    #ul1 .link_right{position: relative;top: 10px;}
+    #ul1 .item4{width: 248px;height: 105px;float: left;}
+</style>
 <body>
 <div id="fixd" class="fixd">
 <div id="head" class="head">
@@ -401,15 +412,48 @@
 
 
         <div class="tlm">
-            <div id="container">
+           <!-- <div id="container">
                 <img src="tlm-img/1.jpg" alt="柯南" title="柯南"/>
                 <img src="tlm-img/2.jpg" alt="柯南" title="柯南"/>
                 <img src="tlm-img/3.jpg" alt="柯南" title="柯南"/>
                 <img src="tlm-img/4.jpg" alt="柯南" title="柯南"/>
                 <img src="tlm-img/5.jpg" alt="柯南" title="柯南"/>
                 <div class="" id="bg"></div>
+            </div>-->
+            <div id="wrap">
+                <ul id="ul1">
+                    <li class="item">
+                        <div class="wrap_link">
+                            <a href="javascript:;" class="link_let"><img src="http://i.gtimg.cn/qqlive/images/20160713/i1468374083_1.jpg"></a>
+                            <a href="javascript:;" class="link_right"><img src="http://puui.qpic.cn/tv/0/4220831_74495/0"></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="wrap_link">
+                            <a href="javascript:;" class="link_let"><img src="http://i.gtimg.cn/qqlive/images/20160712/i1468323582_1.jpg"></a>
+                            <a href="javascript:;" class="link_right"><img src="http://puui.qpic.cn/tv/0/4220833_74495/0"></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="wrap_link">
+                            <a href="javascript:;" class="link_let"><img src="http://i.gtimg.cn/qqlive/images/20160712/i1468323603_1.jpg"></a>
+                            <a href="javascript:;" class="link_right"><img src="http://puui.qpic.cn/tv/0/4220831_74495/0"></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="wrap_link">
+                            <a href="javascript:;" class="link_let"><img src="http://img1.gtimg.com/ent/pics/hv1/75/207/2002/130232910.jpg"></a>
+                            <a href="javascript:;" class="link_right"><img src="http://puui.qpic.cn/tv/0/4220831_74495/0"></a>
+                        </div>
+                    </li>
+                    <li class="item4">
+                        <div class="wrap_link">
+                            <a href="javascript:;" class="link_let"><img src="http://i.gtimg.cn/qqlive/images/20160608/i1465387938_1.jpg"></a>
+                            <a href="javascript:;" class="link_right"><img src="http://puui.qpic.cn/tv/0/3888664_74495/0"></a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-
 
         </div>
 
@@ -1571,3 +1615,31 @@
 
 <script src="utils.js"></script>
 <script src="shubiaoMove.js"> </script>
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<script type="text/javascript">
+    var $ul=$('#ul1');
+    var $aLi=$('#ul1').find('li');
+    $aLi.each(function(i,ele){
+        $(ele).attr('index',i);
+    })
+    $aLi.on({
+        'mouseover':function(){
+            var num=$(this).attr('index');
+            if($(this).attr('index')==4){
+                $ul.stop().animate({left:($aLi.length-2)*-248},200);
+            }else{
+                $ul.stop().animate({left:num*-248},200);
+                $(this).stop().animate({width:994},200);
+            }
+        },
+        'mouseout':function(){
+            var num=$(this).attr('index');
+            if(num==4){
+                $ul.stop().animate({left:0},200);
+            }else{
+                $ul.stop().animate({left:0},200);
+                $(this).stop().animate({width:248},200);
+            }
+        }
+    })
+</script>
